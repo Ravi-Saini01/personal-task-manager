@@ -6,7 +6,7 @@ import FilterButtons from './components/FilterButtons';
 import Stats from './components/Stats';
 import './App.css';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+const API_URL = process.env.REACT_APP_API_URL || 'https://personal-task-manager-o4ph.onrender.com/api';
 
 function App() {
   const [tasks, setTasks] = useState([]);
