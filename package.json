@@ -1,0 +1,15 @@
+{
+    "name": "personal-task-manager",
+    "version": "1.0.0",
+    "description": "Full-stack task manager with React and Node.js",
+    "private": true,
+    "scripts": {
+        "dev": "concurrently \"npm run server\" \"npm run client\"",
+        "server": "cd server && npm run dev",
+        "client": "cd client && npm start",
+        "build": "cd client && npm run build"
+    },
+    "devDependencies": {
+        "concurrently": "^8.0.0"
+    }
+}
