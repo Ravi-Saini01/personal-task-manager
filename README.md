@@ -131,7 +131,7 @@ npm start</code></pre>
 <h3>Base URL</h3>
 <ul>
   <li>Local: <code>http://localhost:5000/api</code></li>
-  <li>Production: <code>https://personal-task-manager-o4ph.onrender.com/api</code></li>
+  <li>Production: <code>https://personal-task-manager-o4ph.onrender.com/api/tasks</code></li>
 </ul>
 
 <h3>Endpoints</h3>
